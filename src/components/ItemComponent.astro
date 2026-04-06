@@ -1,0 +1,39 @@
+---
+
+
+import itemSchema from '../schemas/item';
+import type { ItemType } from '../schemas/item';
+
+
+
+
+const { item } = Astro.props;
+
+try {
+	itemSchema.parse(item);
+}
+catch (error) {
+	console.error('Invalid item data:', error);
+	// return (<p>Error: Invalid item data.</p>);
+}
+
+const { name, description, image, properties } = item;
+
+const { en, vi } = description;
+
+const { platforms, license, website } = properties;
+
+---
+
+<li>
+	<div>
+		<h2>{name}</h2>
+		<p>{en}</p>
+		{image && <img src={image} alt={`Image for ${name}`} />}
+		<ul>
+			{license && <li><strong>License:</strong> {license}</li>}
+			{platforms && <li><strong>Platforms:</strong> {platforms.join(', ')}</li>}
+			{website && <li><strong>Website:</strong> <a href={website}>{website}</a></li>}
+		</ul>
+	</div>
+</li>
