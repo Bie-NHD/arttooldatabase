@@ -239,5 +239,904 @@
       ]
     },
     "website": "https://line-of-action.com/"
+  },
+  {
+    "id": 13,
+    "name": "PoseMy.Art",
+    "description": {
+      "en": "PoseMy.Art is a browser-based pose reference tool for artists that lets users generate and adjust 3D character poses, camera angles, and lighting to build custom reference scenes. It is designed to help illustrators quickly capture dynamic and anatomically accurate references for drawing and storytelling.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://posemy.art/"
+  },
+  {
+    "id": 14,
+    "name": "BeeRef",
+    "description": {
+      "en": "BeeRef is an open-source reference image organizer and viewer built for artists. It enables users to import, arrange, and compare reference material in a clean interface, helping creators maintain visual inspiration while working on compositions.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://github.com/rbreu/beeref"
+  },
+  {
+    "id": 15,
+    "name": "PureRef",
+    "description": {
+      "en": "PureRef is a lightweight reference board application that lets artists collect, arrange, and resize images in a floating canvas. It is popular for concept art and illustration workflows because it keeps reference material organized without interrupting the main drawing process.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Freemium",
+        "Lifetime"
+      ]
+    },
+    "website": "https://www.pureref.com/index.php"
+  },
+  {
+    "id": 16,
+    "name": "MyPaint",
+    "description": {
+      "en": "MyPaint is a free and open-source digital painting application with an infinite canvas and natural brush engine. It focuses on letting artists sketch and paint without distractions, offering a simple interface and responsive brushes.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://mypaint.app/"
+  },
+  {
+    "id": 17,
+    "name": "Coolors",
+    "description": {
+      "en": "Coolors is a web-based color palette generator and design tool that helps artists and designers create, explore, and export harmonious color schemes. It includes fast palette creation, contrast checking, and sharing tools for branding and illustration projects.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Freemium"
+      ]
+    },
+    "website": "https://coolors.co/"
+  },
+  {
+    "id": 18,
+    "name": "Sketchbook",
+    "description": {
+      "en": "Sketchbook is a digital drawing app with pencils, markers, brushes, and layering tools built for fast sketching and illustration. It offers a polished interface and supports both desktop and mobile devices for creative workflows.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://www.sketchbook.com/"
+  },
+  {
+    "id": 19,
+    "name": "Microsoft Paint",
+    "description": {
+      "en": "Microsoft Paint is the classic Windows raster graphics editor included with Microsoft Windows. It is a basic tool for drawing, simple image editing, and pixel art creation that beginners often use as an introduction to digital art.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/microsoft-paint/about/"
+  },
+  {
+    "id": 20,
+    "name": "Procreate",
+    "description": {
+      "en": "Procreate is a professional digital painting app for iPad with a powerful brush engine, layered workflow, and animation tools. It is widely used by illustrators and concept artists for its responsive performance and rich feature set.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "iOS"
+      ],
+      "license": [
+        "Lifetime"
+      ]
+    },
+    "website": "https://procreate.com/"
+  },
+  {
+    "id": 21,
+    "name": "TILF",
+    "description": {
+      "en": "TILF is a free open-source reference image viewer and organizer for artists. It allows multiple images to be displayed together so creators can build visual mood boards and compare source material during drawing sessions.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://github.com/danterolle/tilf"
+  },
+  {
+    "id": 22,
+    "name": "Aseprite",
+    "description": {
+      "en": "Aseprite is a pixel art editor and animation tool designed for sprite creation, tilesets, and frame-by-frame animations. It provides palette management, onion skinning, and export tools for game art workflow.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Lifetime"
+      ]
+    },
+    "website": "https://www.aseprite.org/"
+  },
+  {
+    "id": 23,
+    "name": "Pixelorama",
+    "description": {
+      "en": "Pixelorama is a free open-source sprite and pixel art editor built with Godot. It features animation tools, layers, and export presets, making it suitable for game asset creation and pixel art production.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://www.pixelorama.org/"
+  },
+  {
+    "id": 24,
+    "name": "LibreSprite",
+    "description": {
+      "en": "LibreSprite is a free open-source fork of Aseprite that preserves the classic pixel art and animation workflow while remaining fully open source. It is built for artists who want a free alternative to paid sprite editors.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://libresprite.github.io/"
+  },
+  {
+    "id": 25,
+    "name": "Pixi Editor",
+    "description": {
+      "en": "Pixie Editor is a browser-based image editor with layers, drawing tools, filters, and quick photo editing features. It is designed for fast edits and simple graphic creation directly in the browser without installation.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://pixieditor.net/"
+  },
+  {
+    "id": 26,
+    "name": "Pixel Studio",
+    "description": {
+      "en": "Pixel Studio is a pixel art editor available on Steam, designed for creating and editing pixel art with tools for sprites, animations, and tilesets. It offers a user-friendly interface for game developers and digital artists.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Lifetime"
+      ]
+    },
+    "website": "https://store.steampowered.com/app/1204050/Pixel_Studio__pixel_art_editor/"
+  },
+  {
+    "id": 27,
+    "name": "Pixelit",
+    "description": {
+      "en": "Pixelit is an open-source pixel art tool that allows users to create and edit pixel art directly in the browser. It provides basic drawing tools and is suitable for quick pixel art projects.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://github.com/giventofly/pixelit"
+  },
+  {
+    "id": 28,
+    "name": "WigglyPaint",
+    "description": {
+      "en": "WigglyPaint is a digital painting tool that adds wiggly, organic effects to brush strokes, making it ideal for expressive and fluid artwork. It is available on itch.io for creative experimentation.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://internet-janitor.itch.io/wigglypaint"
+  },
+  {
+    "id": 29,
+    "name": "Dith",
+    "description": {
+      "en": "Dith is a browser-based dithering tool that converts images into dithered patterns, useful for creating retro-style graphics and pixel art effects. It is a simple web tool for quick image processing.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://beyondloom.com/tools/dith.html"
+  },
+  {
+    "id": 30,
+    "name": "GrainTouch",
+    "description": {
+      "en": "GrainTouch is a web-based tool for adding grain and texture effects to images and artwork. It helps artists enhance their digital creations with realistic textures directly in the browser.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://www.iorama.studio/graintouch"
+  },
+  {
+    "id": 31,
+    "name": "Affinity Designer",
+    "description": {
+      "en": "Affinity Designer is a professional vector graphics editor that offers powerful tools for illustration, UI/UX design, and print work. It is part of the Affinity suite and provides a one-time purchase model.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS"
+      ],
+      "license": [
+        "Lifetime"
+      ]
+    },
+    "website": "https://www.affinity.studio/"
+  },
+  {
+    "id": 32,
+    "name": "Photopea",
+    "description": {
+      "en": "Photopea is a free online alternative to Adobe Photoshop, offering advanced image editing tools, layers, and filters directly in the browser. It supports PSD files and is popular for web-based photo manipulation.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://www.photopea.com/"
+  },
+  {
+    "id": 33,
+    "name": "PaintTool SAI",
+    "description": {
+      "en": "PaintTool SAI is a lightweight digital painting software known for its smooth brush performance and line art tools. It is favored by manga artists and illustrators for its simplicity and precision.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows"
+      ],
+      "license": [
+        "Lifetime"
+      ]
+    },
+    "website": "https://www.systemax.jp/en/sai/"
+  },
+  {
+    "id": 34,
+    "name": "Adobe Fresco",
+    "description": {
+      "en": "Adobe Fresco is a digital painting and drawing app that combines vector and raster brushes with live brushes for natural media effects. It is part of Adobe's Creative Cloud and supports touch devices.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "license": [
+        "Subscription"
+      ]
+    },
+    "website": "https://www.adobe.com/products/fresco.html"
+  },
+  {
+    "id": 35,
+    "name": "Kreska",
+    "description": {
+      "en": "Kreska is a free digital art software focused on sketching and painting with a simple interface. It is designed for artists who want an easy-to-use tool for creative expression.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://kreska.art/"
+  },
+  {
+    "id": 36,
+    "name": "Pastela",
+    "description": {
+      "en": "Pastela is a digital painting application that simulates pastel drawing techniques. It offers realistic brush effects and is suitable for artists interested in traditional media simulation.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/pastela/about/"
+  },
+  {
+    "id": 37,
+    "name": "HiPaint",
+    "description": {
+      "en": "HiPaint is a painting software that provides a variety of brushes and tools for digital art creation. It is a free tool aimed at hobbyists and professionals alike.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/hipaint/about/"
+  },
+  {
+    "id": 38,
+    "name": "Tayasui Sketches",
+    "description": {
+      "en": "Tayasui Sketches is a mobile sketching app that offers intuitive drawing tools and a clean interface for quick ideas and concepts. It is designed for on-the-go creativity.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/tayasui-sketches/about/"
+  },
+  {
+    "id": 39,
+    "name": "NPainter",
+    "description": {
+      "en": "NPainter is an Android painting app that provides essential drawing tools and effects for mobile artists. It allows users to create artwork directly on their devices.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Android"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/npainter/about/"
+  },
+  {
+    "id": 40,
+    "name": "Infinipaint",
+    "description": {
+      "en": "Infinipaint is an iOS app that offers an infinite canvas for painting and drawing. It is ideal for expansive creative projects without canvas limitations.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "iOS"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/infinipaint/about/"
+  },
+    {
+    "id": 41,
+    "name": "OpenCanvas",
+    "description": {
+      "en": "OpenCanvas is a digital painting software that combines intuitive drawing tools with layering and composition features. It is designed for both beginners and professional artists looking for accessible painting tools.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "license": [
+        "Lifetime"
+      ]
+    },
+    "website": "https://alternativeto.net/software/opencanvas/about/"
+  },
+  {
+    "id": 42,
+    "name": "Fluid Paint",
+    "description": {
+      "en": "Fluid Paint is a digital painting application that emphasizes natural brush simulation and fluid dynamics. It provides tools for creating realistic paint effects and artistic expressions.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/fluid-paint/about/"
+  },
+  {
+    "id": 43,
+    "name": "PaintStorm",
+    "description": {
+      "en": "PaintStorm is a digital painting and illustration software with a focus on responsive brushes and intuitive controls. It supports various platforms and is suitable for concept art and illustration work.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "license": [
+        "Freemium"
+      ]
+    },
+    "website": "https://alternativeto.net/software/paintstorm/about/"
+  },
+  {
+    "id": 44,
+    "name": "Pixilart",
+    "description": {
+      "en": "Pixilart is a browser-based pixel art and animation tool that allows artists to create pixel art, animate sprites, and collaborate with other creators. It is designed for both hobbyists and professionals.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Freemium"
+      ]
+    },
+    "website": "https://alternativeto.net/software/pixilart/about/"
+  },
+  {
+    "id": 45,
+    "name": "ArtWeaver",
+    "description": {
+      "en": "ArtWeaver is a digital painting software with a large collection of natural media brushes and advanced layering capabilities. It is suitable for digital artists and illustrators seeking professional tools.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/artweaver/about/"
+  },
+  {
+    "id": 46,
+    "name": "Mental Canvas",
+    "description": {
+      "en": "Mental Canvas is a 3D drawing and presentation software that allows artists to create and navigate through layered 3D sketches. It is designed for concept art and storytelling.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "license": [
+        "Subscription"
+      ]
+    },
+    "website": "https://alternativeto.net/software/mental-canvas/about/"
+  },
+  {
+    "id": 47,
+    "name": "HeavyPaint",
+    "description": {
+      "en": "HeavyPaint is a digital painting application that offers thick, realistic brush strokes and textures. It is ideal for artists seeking to create paintings with heavy impasto effects.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/heavypaint/about/"
+  },
+  {
+    "id": 48,
+    "name": "Drawpile",
+    "description": {
+      "en": "Drawpile is a free and open-source painting and drawing application that supports collaborative drawing sessions. It allows multiple artists to work on the same canvas simultaneously.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/drawpile/about/"
+  },
+  {
+    "id": 49,
+    "name": "Infinite Painter",
+    "description": {
+      "en": "Infinite Painter is a digital painting app for Android and iOS that offers an infinite canvas, brushes, and layers. It is designed for artists who want to paint on mobile devices without limitations.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/infinite-painter/about/"
+  },
+  {
+    "id": 50,
+    "name": "FlipaClip",
+    "description": {
+      "en": "FlipaClip is a mobile animation app for creating frame-by-frame animations and flipbook-style comics. It offers drawing tools, frame management, and onion skinning for smooth animation creation.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "license": [
+        "Freemium"
+      ]
+    },
+    "website": "https://alternativeto.net/software/flipaclip/about/"
+  },
+  {
+    "id": 51,
+    "name": "Friction",
+    "description": {
+      "en": "Friction is a free and open-source 2D animation software designed for creating smooth animations and interactive content. It provides a node-based workflow for advanced animation control.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://github.com/friction2d/friction"
+  },
+  {
+    "id": 52,
+    "name": "Glaxnimate",
+    "description": {
+      "en": "Glaxnimate is a free and open-source vector animation tool that creates smooth animations and motion graphics. It is suitable for creating animated illustrations and short clips.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://glaxnimate.org/"
+  },
+  {
+    "id": 53,
+    "name": "Synfig Studio",
+    "description": {
+      "en": "Synfig Studio is a free and open-source vector animation software with bone rigging and advanced animation tools. It is widely used for 2D animation production and motion graphics.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://www.synfig.org/"
+  },
+  {
+    "id": 54,
+    "name": "Pixen",
+    "description": {
+      "en": "Pixen is a pixel art editor for macOS that provides tools for creating and animating pixel art. It includes layers, animation frames, and export options for game development.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "macOS"
+      ],
+      "license": [
+        "Lifetime"
+      ]
+    },
+    "website": "https://alternativeto.net/software/pixen/about/"
+  },
+  {
+    "id": 55,
+    "name": "Rebelle",
+    "description": {
+      "en": "Rebelle is a digital painting software that simulates realistic watercolor, ink, and acrylic painting techniques. It is designed for artists who want to create paintings with authentic wet media effects.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "license": [
+        "Subscription"
+      ]
+    },
+    "website": "https://alternativeto.net/software/rebelle/about/"
+  },
+  {
+    "id": 56,
+    "name": "AzPainter",
+    "description": {
+      "en": "AzPainter is a lightweight and free digital painting software with a focus on simplicity and usability. It offers basic to intermediate painting tools suitable for artists and hobbyists.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/azpainter/about/"
+  },
+  {
+    "id": 57,
+    "name": "Aggie.io",
+    "description": {
+      "en": "Aggie.io is a free collaborative drawing tool accessible in the browser, allowing multiple users to draw and paint together on a shared canvas in real-time.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/aggie-io/about/"
+  },
+  {
+    "id": 58,
+    "name": "Art Fight",
+    "description": {
+      "en": "Art Fight is a free online competitive art event platform where artists create and gift fan art to other participants. It is a community-driven event held twice yearly for artists of all skill levels.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://artfight.net/"
+  },
+  {
+    "id": 59,
+    "name": "ArtistAssistApp",
+    "description": {
+      "en": "ArtistAssistApp is a mobile and desktop application that provides pose references, color palettes, and other tools to assist artists in their creative process.",
+      "vi": ""
+    },
+    "lastUpdated": "2026-04-16",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://alternativeto.net/software/artistassistapp/about/"
   }
 ]

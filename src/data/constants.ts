@@ -4,14 +4,14 @@ const PLATFORMS = [
   "Linux",
   "Android",
   "iOS",
-  "Browser",
-  "Other",
+  "Browser"
+
 ] as const;
 const LICENSES = [
   "Free",
   "Freemium",
   "Subscription",
-  "Lifetime",
+  "Lifetime"
 ] as const;
 
 export { PLATFORMS, LICENSES };
