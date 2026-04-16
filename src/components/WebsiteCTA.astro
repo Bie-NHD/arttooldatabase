@@ -1,0 +1,24 @@
+---
+import { z } from "astro/zod";
+import { Link } from "@lucide/astro";
+
+const { href } = Astro.props;
+
+try {
+  z.string().url().parse(href);
+} catch (error) {
+  console.error("Invalid URL:", error);
+  // return (<p>Error: Invalid URL.</p>);
+}
+---
+
+<a
+  role="link"
+  href={href}
+  class="badge badge-info btn-sm max-w-max"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Link />
+  Visit Website</a
+>

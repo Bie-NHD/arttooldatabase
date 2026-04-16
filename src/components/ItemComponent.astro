@@ -1,39 +1,64 @@
 ---
-
-
-import itemSchema from '../schemas/item';
-import type { ItemType } from '../schemas/item';
-
-
-
+import itemSchema from "../schemas/item";
+import { Link } from "@lucide/astro";
 
 const { item } = Astro.props;
 
 try {
-	itemSchema.parse(item);
-}
-catch (error) {
-	console.error('Invalid item data:', error);
-	// return (<p>Error: Invalid item data.</p>);
+  itemSchema.parse(item);
+} catch (error) {
+  console.error("Invalid item data:", error);
+  // return (<p>Error: Invalid item data.</p>);
 }
 
-const { name, description, image, properties } = item;
+const { name, description, image, properties, website } = item;
 
 const { en, vi } = description;
 
-const { platforms, license, website } = properties;
-
+const { platforms, license } = properties;
 ---
 
-<li>
-	<div>
-		<h2>{name}</h2>
-		<p>{en}</p>
-		{image && <img src={image} alt={`Image for ${name}`} />}
-		<ul>
-			{license && <li><strong>License:</strong> {license}</li>}
-			{platforms && <li><strong>Platforms:</strong> {platforms.join(', ')}</li>}
-			{website && <li><strong>Website:</strong> <a href={website}>{website}</a></li>}
-		</ul>
-	</div>
+<li
+  class="card item-component bg-base-100 shadow-primary lg:shadow-2lg shadow-lg"
+  class:list={[
+    ...platforms.map((s: string) => ` platforms--${s} `),
+    ...license.map((s: string) => ` licenses--${s} `),
+  ]}
+>
+  <div class="card-body">
+    <h2 class="card-title">{name}</h2>
+    <div class="item-description">
+      <p class="card-text description--en">{en}</p>
+      <p class="card-text description--vi hidden">{vi}</p>
+    </div>
+    {image && <img src={image} alt={`Image for ${name}`} />}
+    <ul class="flex w-full flex-wrap space-x-1">
+      {
+        license && (
+          <>
+            {license.map((li: string) => (
+              <li class="badge badge-primary m-1 p-3 first:ml-0">{li}</li>
+            ))}
+          </>
+        )
+      }
+      {
+        platforms && (
+          <>
+            {platforms.map((p: string) => (
+              <li class="badge badge-secondary m-1 p-3">{p}</li>
+            ))}
+          </>
+        )
+      }
+    </ul>
+    <div class="max-y-max flex h-full w-full items-end">
+      <a
+        class="btn btn-soft btn-info btn-sm border-info max-w-max hover:text-white"
+        href={website}
+        target="_blank"
+        rel="noopener noreferrer"><Link height={16} />Website</a
+      >
+    </div>
+  </div>
 </li>

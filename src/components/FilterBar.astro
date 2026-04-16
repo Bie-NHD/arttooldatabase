@@ -1,0 +1,195 @@
+---
+import { LICENSES, PLATFORMS } from "../data/constants.js";
+---
+
+<div>
+  <div class="hidden"></div>
+  <div class="bg-primary flex flex-col items-center justify-center">
+    <div class="bg-base-100 m-16 max-w-max rounded p-8">
+      <form aria-label="Filter items by platform and license flex-center">
+        <div class="flex items-end">
+          <button
+            type="button"
+            id="btn--clear-all-filter"
+            class="link-btn mr-2 ml-auto"
+            aria-label="Clear all filters">Clear All</button
+          >
+        </div>
+        <div
+          class="grid max-w-max grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 lg:gap-16"
+        >
+          <fieldset
+            class="fieldset fieldset-filters flex max-w-max flex-wrap"
+            id="filters-platforms"
+            aria-label="Filter by platform"
+          >
+            <legend>
+              <div
+                class="md:tooltip md:tooltip-right md:tooltip-open"
+                data-tip="Each options are filter with OR logic"
+              >
+                <p class="md:text-md font-bold lg:text-[16px]">PLATFORMS</p>
+              </div>
+            </legend>
+            {
+              PLATFORMS.map((platform) => (
+                <input
+                  class="filter-btn"
+                  type="checkbox"
+                  name="platforms"
+                  value={platform}
+                  aria-label={platform}
+                />
+              ))
+            }
+            <button
+              type="reset"
+              name="platforms"
+              class="link-btn"
+              aria-label="Select all licenses">Clear</button
+            >
+          </fieldset>
+          <fieldset
+            class="fieldset fieldset-filters flex max-w-max flex-wrap"
+            id="filters-licenses"
+            aria-label="Filter by license"
+          >
+            <legend class="md:text-md font-bold lg:text-[16px]">LICENSES</legend
+            >
+            {
+              LICENSES.map((license) => (
+                <input
+                  class="filter-btn"
+                  type="checkbox"
+                  name="licenses"
+                  value={license}
+                  aria-label={license}
+                />
+              ))
+            }
+            <div>
+              <button
+                type="reset"
+                name="licenses"
+                class="link-btn"
+                aria-label="Select all licenses">Clear</button
+              >
+            </div>
+          </fieldset>
+        </div>
+      </form>
+      <div class="divider"></div>
+      <div class="flex w-full flex-col items-center justify-center text-center">
+        <div>
+          <a href="#faq" class="link">FAQ</a><span> ⭐ </span><a>Contributing</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  import { LICENSES, PLATFORMS } from "../data/constants.js";
+
+  const m_selectedFilters = {
+    platforms: [...PLATFORMS],
+    licenses: [...LICENSES],
+  };
+
+  const f_clearAllFilters = (filter: "platforms" | "licenses") => {
+    if (!["platforms", "licenses"].includes(filter)) {
+      console.warn(`Unknown filter type: ${filter}`);
+      return;
+    }
+
+    switch (filter) {
+      case "platforms":
+        m_selectedFilters.platforms = [...PLATFORMS];
+        break;
+      case "licenses":
+        m_selectedFilters.licenses = [...LICENSES];
+        break;
+      default:
+        break;
+    }
+
+    f_showAllItems();
+  };
+
+  const f_hideAllItems = () => {
+    document.querySelectorAll(".item-component").forEach((card) => {
+      (card as HTMLElement).classList.add("hidden");
+    });
+  };
+
+  const f_showAllItems = () => {
+    document.querySelectorAll(".item-component.hidden").forEach((card) => {
+      (card as HTMLElement).classList.remove("hidden");
+    });
+  };
+
+  const f_updateVisibleItems = () => {
+    f_hideAllItems();
+
+    const _platforms = m_selectedFilters.platforms.map(
+      (p) => `.platforms--${p}`,
+    );
+    const _licenses = m_selectedFilters.licenses.map((l) => `.licenses--${l}`);
+
+    const _selectors: string[] = [];
+    let _itemsChangedCounter = 0;
+
+    _platforms.forEach((p) => {
+      _licenses.forEach((l) => {
+        _selectors.push(`${p}${l}`);
+      });
+    });
+
+    _selectors.forEach((sel) => {
+      document.querySelectorAll(sel).forEach((card) => {
+        (card as HTMLElement).classList.remove("hidden");
+        _itemsChangedCounter++;
+      });
+    });
+
+    if (_itemsChangedCounter === 0) {
+      console.log("No items to show."); //TODO: Delete this log and show a "No items found" message on the UI instead
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".fieldset-filters").forEach((fs) => {
+      const _id = fs.getAttribute("id") || "";
+      const _filterType = _id.split("-")[1]; // "platforms" or "licenses"
+      fs.addEventListener("change", (e) => {
+        const checked = fs.querySelectorAll("input[type='checkbox']:checked");
+        const _filters = Array.from(checked).map(
+          (cb) => (cb as HTMLInputElement).value,
+        );
+
+        if (_filters.length === 0) {
+          // If no filters are selected, show all items
+          f_showAllItems();
+          return;
+        }
+
+        m_selectedFilters[_filterType] = _filters;
+
+        f_updateVisibleItems();
+      });
+      fs.querySelector("button[type='reset']")?.addEventListener(
+        "click",
+        (e) => {
+          f_clearAllFilters(_filterType);
+        },
+      );
+    });
+    document
+      .querySelector("#btn--clear-all-filter")
+      ?.addEventListener("click", (e) => {
+        document.querySelectorAll(".fieldset-filters").forEach((fs) => {
+          fs.querySelector("button[type='reset']")?.click(); // Trigger the reset button for each filter group
+        });
+      });
+  });
+</script>

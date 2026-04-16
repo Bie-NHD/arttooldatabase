@@ -1,204 +1,243 @@
 [
-    {
-        "id": 1,
-        "name": "Krita",
-        "description": {
-            "en": "Krita is a free and open-source raster graphics editor designed primarily for digital painting and animation purposes. It offers a wide range of tools and features for artists, including brushes, layers, masks, and various effects. Krita is known for its user-friendly interface and powerful capabilities, making it a popular choice among digital artists and illustrators.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "Linux"
-            ],
-            "license": [
-                "Free"
-            ]
-        },
-        "website": "https://krita.org/"
+  {
+    "id": 1,
+    "name": "Krita",
+    "description": {
+      "en": "Krita is a free and open-source raster graphics editor designed primarily for digital painting and animation purposes. It offers a wide range of tools and features for artists, including brushes, layers, masks, and various effects. Krita is known for its user-friendly interface and powerful capabilities, making it a popular choice among digital artists and illustrators.",
+      "vi": ""
     },
-    {
-        "id": 2,
-        "name": "GIMP",
-        "description": {
-            "en": "GIMP (GNU Image Manipulation Program) is a free and open-source raster graphics editor used for tasks such as photo retouching, image editing, and graphic design. It provides a wide range of tools and features, including layers, masks, filters, and various effects. GIMP is known for its versatility and is often used as an alternative to commercial software like Adobe Photoshop.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "Linux"
-            ],
-            "license": [
-                "Free"
-            ]
-        },
-        "website": "https://www.gimp.org/"
+    "lastUpdated": "2024-04-15",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free",
+        "Lifetime"
+      ]
     },
-    {
-        "id": 3,
-        "name": "Inkscape",
-        "description": {
-            "en": "Inkscape is a free and open-source vector graphics editor used for creating and editing scalable vector graphics (SVG). It offers a variety of tools for drawing, shaping, and manipulating vector objects, making it suitable for tasks such as logo design, illustration, and web graphics. Inkscape is known for its user-friendly interface and powerful features, making it a popular choice among graphic designers and artists.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "Linux"
-            ],
-            "license": [
-                "Free"
-            ]
-        },
-        "website": "https://inkscape.org/"
+    "website": "https://krita.org/"
+  },
+  {
+    "id": 2,
+    "name": "GIMP",
+    "description": {
+      "en": "GIMP (GNU Image Manipulation Program) is a free and open-source raster graphics editor used for tasks such as photo retouching, image editing, and graphic design. It provides a wide range of tools and features, including layers, masks, filters, and various effects. GIMP is known for its versatility and is often used as an alternative to commercial software like Adobe Photoshop.",
+      "vi": ""
     },
-    {
-        "id": 4,
-        "name": "Blender",
-        "description": {
-            "en": "Blender is a free and open-source 3D creation suite that supports the entire 3D pipeline, including modeling, rigging, animation, simulation, rendering, compositing, and motion tracking. It is widely used for creating 3D models, animations, visual effects, and interactive applications. Blender is known for its powerful features and active community, making it a popular choice among artists and developers in the 3D industry.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "Linux"
-            ],
-            "license": [
-                "Free"
-            ]
-        },
-        "website": "https://www.blender.org/"
+    "lastUpdated": "2024-04-06",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
     },
-    {
-        "id": 5,
-        "name": "Clip Studio Paint",
-        "description": {
-            "en": "Clip Studio Paint is a free and open-source raster graphics  editor designed primarily for digital painting and comic creation. It offers a wide range of tools and features for artists, including brushes, layers, masks, and various effects. Clip Studio Paint is known for its user-friendly interface and powerful capabilities, making it a popular choice among digital artists and illustrators.",
-            "vi": ""
-        },
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "iOS",
-                "Android"
-            ],
-            "license": [
-                "Subscription",
-                "Lifetime"
-            ]
-        },
-        "website": "https://www.clipsstudio.com/",
-        "lastUpdated": "2024-04-06"
+    "website": "https://www.gimp.org/"
+  },
+  {
+    "id": 3,
+    "name": "Inkscape",
+    "description": {
+      "en": "Inkscape is a free and open-source vector graphics editor used for creating and editing scalable vector graphics (SVG). It offers a variety of tools for drawing, shaping, and manipulating vector objects, making it suitable for tasks such as logo design, illustration, and web graphics. Inkscape is known for its user-friendly interface and powerful features, making it a popular choice among graphic designers and artists.",
+      "vi": ""
     },
-    {
-        "id": 6,
-        "name": "DaVinci Resolve",
-        "description": {
-            "en": "DaVinci Resolve is a free and open-source video editing software that offers a comprehensive set of tools for video editing, color correction, visual effects, and audio post-production. It is widely used by professionals in the film and television industry for its powerful features and intuitive interface. DaVinci Resolve is known for its advanced color grading capabilities and is often used for high-end video production.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "Linux"
-            ],
-            "license": [
-                "Lifetime"
-            ]
-        },
-        "website": "https://www.blackmagicdesign.com/products/davinciresolve"
+    "lastUpdated": "2024-04-06",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
     },
-    {
-        "id": 7,
-        "name": "OBS Studio",
-        "description": {
-            "en": "OBS Studio (Open Broadcaster Software) is a free and open-source software for video recording and live streaming. It allows users to capture and mix video and audio in real-time, making it popular among content creators, gamers, and streamers. OBS Studio offers a wide range of features, including customizable scenes, transitions, and support for various streaming platforms. It is known for its user-friendly interface and powerful capabilities.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "Linux"
-            ],
-            "license": [
-                "Free"
-            ]
-        },
-        "website": "https://www.obsproject.com/"
+    "website": "https://inkscape.org/"
+  },
+  {
+    "id": 4,
+    "name": "Blender",
+    "description": {
+      "en": "Blender is a free and open-source 3D creation suite that supports the entire 3D pipeline, including modeling, rigging, animation, simulation, rendering, compositing, and motion tracking. It is widely used for creating 3D models, animations, visual effects, and interactive applications. Blender is known for its powerful features and active community, making it a popular choice among artists and developers in the 3D industry.",
+      "vi": ""
     },
-    {
-        "id": 8,
-        "name": "FireAlpaca",
-        "description": {
-            "en": "FireAlpaca is a free digital painting software that is available in 10 languages and compatible with both Mac and Windows. It is designed to be simple and easy to use, making it a great choice for beginners. It features various tools like brushes, layers, and perspective tools, specifically catering to illustrators and comic artists.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS"
-            ],
-            "license": [
-                "Free"
-            ]
-        },
-        "website": "https://firealpaca.com/"
+    "lastUpdated": "2024-04-06",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
     },
-    {
-        "id": 9,
-        "name": "MediBang Paint",
-        "description": {
-            "en": "MediBang Paint is a free lightweight digital painting and comic creation program that comes loaded with brushes, fonts, pre-made backgrounds, and other resources. It is available on Windows, Mac OS X, Android, and iOS. The software uses cloud saving to allow users to easily transfer their work between platforms.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "Android",
-                "iOS"
-            ],
-            "license": [
-                "Subscription"
-            ]
-        },
-        "website": "https://medibang.com/"
+    "website": "https://www.blender.org/"
+  },
+  {
+    "id": 5,
+    "name": "Clip Studio Paint",
+    "description": {
+      "en": "Clip Studio Paint is a free and open-source raster graphics  editor designed primarily for digital painting and comic creation. It offers a wide range of tools and features for artists, including brushes, layers, masks, and various effects. Clip Studio Paint is known for its user-friendly interface and powerful capabilities, making it a popular choice among digital artists and illustrators.",
+      "vi": ""
     },
-    {
-        "id": 10,
-        "name": "OpenToonz",
-        "description": {
-            "en": "OpenToonz is a free and open-source 2D animation software based on the software 'Toonz', which was used by Studio Ghibli. It features powerful tools for scanning, digital painting, and filming, supporting both traditional hand-drawn and paperless animation workflows.",
-            "vi": ""
-        },
-        "lastUpdated": "2024-04-06",
-        "properties": {
-            "platforms": [
-                "Windows",
-                "macOS",
-                "Linux"
-            ],
-            "license": [
-                "Free"
-            ]
-        },
-        "website": "https://opentoonz.org/"
-    }
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "license": [
+        "Subscription",
+        "Lifetime"
+      ]
+    },
+    "website": "https://www.clipsstudio.com/",
+    "lastUpdated": "2024-04-06"
+  },
+  {
+    "id": 6,
+    "name": "DaVinci Resolve",
+    "description": {
+      "en": "DaVinci Resolve is a free and open-source video editing software that offers a comprehensive set of tools for video editing, color correction, visual effects, and audio post-production. It is widely used by professionals in the film and television industry for its powerful features and intuitive interface. DaVinci Resolve is known for its advanced color grading capabilities and is often used for high-end video production.",
+      "vi": ""
+    },
+    "lastUpdated": "2024-04-06",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Lifetime"
+      ]
+    },
+    "website": "https://www.blackmagicdesign.com/products/davinciresolve"
+  },
+  {
+    "id": 7,
+    "name": "OBS Studio",
+    "description": {
+      "en": "OBS Studio (Open Broadcaster Software) is a free and open-source software for video recording and live streaming. It allows users to capture and mix video and audio in real-time, making it popular among content creators, gamers, and streamers. OBS Studio offers a wide range of features, including customizable scenes, transitions, and support for various streaming platforms. It is known for its user-friendly interface and powerful capabilities.",
+      "vi": ""
+    },
+    "lastUpdated": "2024-04-06",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://www.obsproject.com/"
+  },
+  {
+    "id": 8,
+    "name": "FireAlpaca",
+    "description": {
+      "en": "FireAlpaca is a free digital painting software that is available in 10 languages and compatible with both Mac and Windows. It is designed to be simple and easy to use, making it a great choice for beginners. It features various tools like brushes, layers, and perspective tools, specifically catering to illustrators and comic artists.",
+      "vi": ""
+    },
+    "lastUpdated": "2024-04-06",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "license": [
+        "Free",
+        "Lifetime"
+      ]
+    },
+    "website": "https://firealpaca.com/"
+  },
+  {
+    "id": 9,
+    "name": "MediBang Paint",
+    "description": {
+      "en": "MediBang Paint is a free lightweight digital painting and comic creation program that comes loaded with brushes, fonts, pre-made backgrounds, and other resources. It is available on Windows, Mac OS X, Android, and iOS. The software uses cloud saving to allow users to easily transfer their work between platforms.",
+      "vi": ""
+    },
+    "lastUpdated": "2024-04-06",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Android",
+        "iOS"
+      ],
+      "license": [
+        "Freemium",
+        "Subscription"
+      ]
+    },
+    "website": "https://medibang.com/"
+  },
+  {
+    "id": 10,
+    "name": "OpenToonz",
+    "description": {
+      "en": "OpenToonz is a free and open-source 2D animation software based on the software 'Toonz', which was used by Studio Ghibli. It features powerful tools for scanning, digital painting, and filming, supporting both traditional hand-drawn and paperless animation workflows.",
+      "vi": ""
+    },
+    "lastUpdated": "2024-04-06",
+    "properties": {
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://opentoonz.org/"
+  },
+  {
+    "id": 11,
+    "name": "Poline",
+    "description": {
+      "en": "Poline is lightweight, dependency free and fast JavaScript function written in TypeScript. It draws lines between anchors over polar HSL coordinates to generate pleasing color palettes.",
+      "vi": ""
+    },
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://meodai.github.io/poline/",
+    "lastUpdated": "2024-04-16"
+  },
+  {
+    "id": 12,
+    "name": "Line of Action",
+    "description": {
+      "en": "Line of Action is a free online tool that provides artists with a variety of resources for practicing figure drawing, gesture drawing, and anatomy studies. It offers a large library of reference images, including photos of models in various poses, as well as tools for creating custom practice sessions. Line of Action is designed to help artists improve their skills and develop their understanding of human anatomy and movement.",
+      "vi": ""
+    },
+    "lastUpdated": "2024-04-16",
+    "properties": {
+      "platforms": [
+        "Browser"
+      ],
+      "license": [
+        "Free"
+      ]
+    },
+    "website": "https://line-of-action.com/"
+  }
 ]
