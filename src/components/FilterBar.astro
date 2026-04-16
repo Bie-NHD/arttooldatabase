@@ -4,32 +4,35 @@ import { LICENSES, PLATFORMS } from "../data/constants.js";
 
 <div>
   <div class="hidden"></div>
-  <div class="bg-primary flex flex-col items-center justify-center">
-    <div class="bg-base-100 m-16 max-w-max rounded p-8">
-      <form aria-label="Filter items by platform and license flex-center">
-        <div class="flex items-end">
+  <div class="bg-secondary flex flex-col items-center justify-center">
+    <div
+      class="bg-base-100 shadow-primary m-16 max-w-max rounded-lg p-8 shadow-2xl"
+    >
+      <form class="max-w-max" aria-label="Filter items by platform and license">
+        <div class="flex-inline flex justify-end">
           <button
             type="button"
             id="btn--clear-all-filter"
-            class="link-btn mr-2 ml-auto"
+            class="link-btn mr-2"
             aria-label="Clear all filters">Clear All</button
           >
         </div>
         <div
-          class="grid max-w-max grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 lg:gap-16"
+          id="fieldset-grid-container"
+          class="flex max-w-max min-w-[280px] flex-wrap gap-4 md:gap-8 lg:gap-16"
         >
           <fieldset
             class="fieldset fieldset-filters flex max-w-max flex-wrap"
             id="filters-platforms"
             aria-label="Filter by platform"
           >
-            <legend>
-              <div
-                class="md:tooltip md:tooltip-right md:tooltip-open"
-                data-tip="Each options are filter with OR logic"
+            <legend class="md:text-md font-bold lg:text-[16px]">
+              PLATFORMS <button
+                type="reset"
+                name="platforms"
+                class="link-btn"
+                aria-label="Select all licenses">Clear</button
               >
-                <p class="md:text-md font-bold lg:text-[16px]">PLATFORMS</p>
-              </div>
             </legend>
             {
               PLATFORMS.map((platform) => (
@@ -42,20 +45,21 @@ import { LICENSES, PLATFORMS } from "../data/constants.js";
                 />
               ))
             }
-            <button
-              type="reset"
-              name="platforms"
-              class="link-btn"
-              aria-label="Select all licenses">Clear</button
-            >
           </fieldset>
           <fieldset
-            class="fieldset fieldset-filters flex max-w-max flex-wrap"
+            class="fieldset fieldset-filters flex-inline flex max-w-max flex-wrap"
             id="filters-licenses"
             aria-label="Filter by license"
           >
-            <legend class="md:text-md font-bold lg:text-[16px]">LICENSES</legend
-            >
+            <legend class="md:text-md font-bold lg:text-[16px]"
+              >LICENSES
+              <button
+                type="reset"
+                name="licenses"
+                class="link-btn"
+                aria-label="Select all licenses">Clear</button
+              >
+            </legend>
             {
               LICENSES.map((license) => (
                 <input
@@ -67,27 +71,22 @@ import { LICENSES, PLATFORMS } from "../data/constants.js";
                 />
               ))
             }
-            <div>
-              <button
-                type="reset"
-                name="licenses"
-                class="link-btn"
-                aria-label="Select all licenses">Clear</button
-              >
-            </div>
           </fieldset>
         </div>
       </form>
-      <div class="divider"></div>
-      <div class="flex w-full flex-col items-center justify-center text-center">
-        <div>
-          <a href="#faq" class="link">FAQ</a><span> ⭐ </span><a>Contributing</a
-          >
-        </div>
+      <!-- <div class="divider"></div> -->
+      <div
+        aria-label="Useful links"
+        class="flex-inline mt-4 flex justify-center"
+      >
+        <a href="#faq" class="link-btn">FAQ</a><a class="link-btn"
+          >Contributing</a
+        >
       </div>
     </div>
   </div>
 </div>
+
 <script>
   import { LICENSES, PLATFORMS } from "../data/constants.js";
 

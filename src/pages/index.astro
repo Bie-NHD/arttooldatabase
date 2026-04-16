@@ -18,53 +18,37 @@ const items = await getCollection("items");
   {/** ---------- Item list ---------- */}
   <section class="p-8 md:m-16" aria-label="Item list">
     <ul
-      class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"
+      class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
       id="item-grid-container"
     >
       {items.map((item) => <ItemComponent item={item.data} />)}
     </ul>
   </section>
-  <section class="bg-secondary p-8">
+  <section
+    aria-label="Frequently Asked Questions"
+    class="bg-secondary flex flex-col items-center p-8 lg:p-24"
+  >
     <h2 class="mb-4 text-xl font-bold" id="faq">Frequently Asked Questions</h2>
-    <details
-      class="bg-base-100/50 border-secondary collapse mb-1 border"
-      name="my-accordion-det-1"
-      open
-    >
-      <summary class="collapse-title font-semibold"
-        >What is this website about?</summary
-      >
-      <div class="collapse-content text-sm">
-        This website is a database of art tools, where you can find various
-        tools for digital art creation, along with their descriptions,
-        platforms, licenses, and links to their websites.
+    <div class="lg:w-1/3">
+      <div class="bg-base-100/50 border-secondary mb-1 rounded-lg border p-8">
+        <h3 class="font-semibold">What is this website about?</h3>
+        <div>
+          This website is a database of art tools, where you can find various
+          tools for digital art creation, along with their descriptions,
+          platforms, licenses, and links to their websites.
+        </div>
       </div>
-    </details>
-    <details
-      class="bg-base-100/50 border-secondary collapse mb-1 border"
-      name="my-accordion-det-1"
-      open
-    >
-      <summary class="collapse-title font-semibold"
-        >How can I contribute to this website?</summary
-      >
-      <div class="collapse-content text-sm">
-        You can contribute by submitting new art tools, updating existing tool
-        information, or providing feedback. Please check the "Contributing"
-        section on our website for more details on how to get involved.
+      <div class="bg-base-100/50 border-secondary mb-1 rounded-lg border p-8">
+        <h3 class="font-semibold">How can I contribute to this website?</h3>
+        <div>
+          You can contribute by submitting new art tools, updating existing tool
+          information, or providing feedback. To submit a new tool or update
+          information, please create a pull request on our GitHub repository
+          with the necessary changes. For feedback, you can reach out to us on
+          our GitHub repository or through the contact form or directly through
+          social media channels if available.
+        </div>
       </div>
-    </details>
-    <details
-      class="bg-base-100/50 border-secondary collapse border"
-      name="my-accordion-det-1"
-      open
-    >
-      <summary class="collapse-title font-semibold"
-        >How do I update my profile information?</summary
-      >
-      <div class="collapse-content text-sm">
-        Go to "My Account" settings and select "Edit Profile" to make changes.
-      </div>
-    </details>
+    </div>
   </section>
 </Layout>
