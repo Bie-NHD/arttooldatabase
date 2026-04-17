@@ -17,16 +17,11 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_BASE: "/arttooldatabase/" # Set this to your repository name if deploying to a subpath
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22" # Adjust if your project needs a different version
-          cache: "npm"
-
       - name: Install, build, and upload your site output
         uses: withastro/action@v6
 
